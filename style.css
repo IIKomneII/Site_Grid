@@ -3,6 +3,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+}
+
 header {
     height: 40px;
     background-color: lightgray;
@@ -15,11 +22,15 @@ main{
 }
 
 main div {
-    border: solid;
+    border: 1px solid;
 }
 
 #logo {
     grid-column: 2;
+}
+
+#logo img {
+width: 119px;
 }
 
 #nav {
@@ -29,6 +40,21 @@ main div {
 #menu {
     grid-column: 2;
     grid-row: 2/4
+}
+
+#menu i {
+    padding-right: 10px;
+}
+
+#greentitle {
+    background-color: rgb(127, 173, 57);
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 10px;
+    font-weight: 700;
+    color: white;
 }
 
 #search {
